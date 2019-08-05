@@ -1,0 +1,23 @@
+<div class="language-header">
+	<div class="page-title"><?php echo $language["LIST_TITLE"]; ?></div>
+	<div class="language-link">
+		<a class="language-link-item" href="index.php?lang=en" <?php if($lang == 'en'){?>  <?php } ?>English</a> | 
+		<a class="language-link-item" href="index.php?lang=cn"  <?php if($lang == 'cn'){?>  <?php } ?>Chinese</a>
+	</div>
+</div>
+<?php 
+	if(!empty($result)){ 
+		foreach($result as $k=>
+	<div class="demo-row-data">
+	<div><strong><?php echo $result[$k][$lang.'_title']; ?></strong></div> 
+	<p class="demo-row-description"><?php echo $result[$k][$lang.'_description']; ?>
+	</p>
+	</div>
+<?php 	
+		} 
+	} else {
+?>
+	<div class="no-result"><?php echo $language["NOTIFY_NO_RESULT"]; ?></div>
+<?php 
+	} 
+?>
