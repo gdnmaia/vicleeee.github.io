@@ -24,12 +24,14 @@ font-family: 'Merriweather', serif;
 font-style: normal;
 font-weight: bold;
 letter-spacing: 0.5px;
+padding-left: 2%
 }
 
 h1 {
 font-size: 62px;
 padding-bottom: 14px;
 margin-bottom: 0px;
+padding-left: 10px;
 }
 
 h2 {
@@ -38,6 +40,7 @@ font-size: 32px;
 
 h2,h3 {
 padding-bottom: 6px;
+padding-left: 2%;
 }
 
 h3 {
@@ -57,6 +60,7 @@ font-size: 15px;
 font-weight: 300;
 line-height: 26px;
 letter-spacing: 0.2px;
+padding-left: 2%
 }
 
 .btn-success:focus {
